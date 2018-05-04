@@ -73,3 +73,7 @@ func (p *FormHelper) IntArr(name, separate string) []int {
 func (p *FormHelper) PostForms() map[string]string {
 	return p.m
 }
+
+func (p *FormHelper) Params()map[string]string{
+	return p.m
+}
